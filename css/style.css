@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+
+body{
+    background-image: url("../assects/image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header-logo__image:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition-duration: 0.5s;
+}
+.header-links__item{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.header-links__item:hover{
+    color: #bdae82;
+    transition-duration: 0.5s;
+}
+.header-links__translation{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-links__translation-en{
+    color: #bdae82;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold; 
+    padding-left: 30px;
+}
+.section-Welcome{
+    margin: 180px 80px;
+}
+.welcome-wrapper{
+    margin-left: 80px;
+    margin-top: 160px;
+}
+h1{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    color: #bdae82;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section-Welcome__text{
+    color: white;
+    font-size: 20px;
+    max-width: 470px;
+}
+.section-Welcome__button{   
+    background-color: #bdae82;
+    padding: 15px 70px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-style: none;
+}
+button:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+.section-skills{
+    margin-top: 430px;
+}
+.section-skills__heading{
+    font-size: 40px;
+    color: #bdae82;
+    text-align: center;
+}
+.section-skills__containers{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+}
+.section-skills__container{
+    text-align: center;
+    max-width: 320px;
+    padding-left: 40px;
+}
+.section-skills__text-heading{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 20px 0px;
+}
+.section-skills__text{
+    color: white;
+    font-size: 18px;
+}
+.portfolio-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.section-Portfolio__button, .section-Portfolio__button-on{
+    background-color: black;
+    border: 2px solid #bdae82;
+    color: #bdae82;
+    padding: 10px 70px;
+    font-size: 20px;
+    margin: 60px 0 60px 5px;
+}
+.section-Portfolio__button-on{
+    background-color: #bdae82;
+    color: black;
+}
+.portfolio-images-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.video-wrapper{
+    background-image: url("../assects/image/video-player.jpg");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 705px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-video:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition-duration: 0.5s;
+}
+.price-wrapper{
+    display: flex;
+}
+.price-wrapper-mini{
+    display: block;
+    text-align: center;
+    border: 3px solid #bdae82;
+    width: 450px;
+    height: 505px;
+    margin-left: 25px;
+}
+h3{
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 43px 0px 20px 0px;
+}
+.price-money__text{
+    color: #bdae82;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+
+}
+.price__text{
+    color: white;
+    display: block;
+    justify-content: center;
+    font-size: 18px;
+}
+.price__button, .contact__button{
+    background-color: #bdae82;
+    border: 2px solid #bdae82;
+    color: black;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contacte-wrapper{
+    background-image: url("../assects/image/contacts.jpg");
+    width: 1440px;
+    height: 700px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.contect-wrapper-mini{
+    margin-top: 60px;
+    margin-left: 970px;
+    margin-right: 20px;
+    width: 450px;
+    height: 445px;
+}
+.heading-contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.contact__input, .contact__input-phone, .contact__input-message{
+    background-color: black;
+    opacity: 50%;
+    width: 450px;
+    height: 50px;
+    color: #bdae82;
+    font-size: 20px;
+    border: 2px solid #bdae82;
+}
+.contact__input-message{
+    height: 100px;
+}
